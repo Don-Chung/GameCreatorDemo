@@ -58,3 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Game Creator
+/Assets/Plugins/GameCreator/Documentation.pdf
+/Assets/Plugins/GameCreator/Packages
