@@ -9146,7 +9146,7 @@ MonoBehaviour:
         m_Variable:
           m_TypeID:
             m_String: number
-          m_Variable: {fileID: 39803980}
+          m_Variable: {fileID: 1967035093}
           m_Name:
             m_String: HP_Score
             m_ID: 1949154028
@@ -10759,6 +10759,17 @@ Transform:
   m_Father: {fileID: 1934511243}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1967035093 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1317957090978479104, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+  m_PrefabInstance: {fileID: 5437799569174283389}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe2b16044a04efba6795e323236dc60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1988084951
 GameObject:
   m_ObjectHideFlags: 0
@@ -11193,7 +11204,7 @@ MonoBehaviour:
         m_IsExpanded: 1
         m_Breakpoint: 0
         m_IsEnabled: 1
-        m_Value: 50
+        m_Value: 300
 --- !u!1 &2031719506
 GameObject:
   m_ObjectHideFlags: 0
@@ -12228,6 +12239,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1638443920}
     - target: {fileID: 6167023361458850184, guid: 1257cd6780dff2d42974b49daa852192, type: 3}
+      propertyPath: managedReferences[2216973107231195171].m_IsExpanded
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167023361458850184, guid: 1257cd6780dff2d42974b49daa852192, type: 3}
       propertyPath: managedReferences[2216973107231195272].m_Variable.m_Variable
       value: 
       objectReference: {fileID: 209463265}
@@ -12486,12 +12501,64 @@ PrefabInstance:
     m_TransformParent: {fileID: 764147597}
     m_Modifications:
     - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677650]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.VisualScripting.InstructionGameObjectSetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677651]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Common.GetGameObjectInstance
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677652]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Common.GetBoolValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677653]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.VisualScripting.InstructionGameObjectSetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677654]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Common.GetGameObjectInstance
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677655]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Common.GetBoolValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: m_Instructions.m_Instructions.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
       propertyPath: m_Instructions.m_Instructions.Array.data[2]
       value: 2216973270404038788
       objectReference: {fileID: 0}
     - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
       propertyPath: m_Instructions.m_Instructions.Array.data[3]
       value: 2216973270404038786
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: m_Instructions.m_Instructions.Array.data[4]
+      value: 2216973270404038786
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: m_Instructions.m_Instructions.Array.data[5]
+      value: 2216973270404038786
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677652].m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677655].m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677650].m_IsEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677653].m_IsEnabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
       propertyPath: managedReferences[2216973270404038786].m_IsExpanded
@@ -12514,8 +12581,48 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677650].m_Breakpoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677650].m_IsExpanded
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677651].m_GameObject
+      value: 
+      objectReference: {fileID: 1725937144}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677653].m_Breakpoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677653].m_IsExpanded
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677654].m_GameObject
+      value: 
+      objectReference: {fileID: 1725937144}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
       propertyPath: managedReferences[2216973270404038786].m_WaitToFinish
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677650].m_Active.m_Property
+      value: 2216973397636677652
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677653].m_Active.m_Property
+      value: 2216973397636677655
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677650].m_GameObject.m_Property
+      value: 2216973397636677651
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306091736, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677653].m_GameObject.m_Property
+      value: 2216973397636677654
       objectReference: {fileID: 0}
     - target: {fileID: 1317957090360589578, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
       propertyPath: managedReferences[2216973191970291875].m_Actions
@@ -12526,16 +12633,128 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1965319774}
     - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677665]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.VisualScripting.InstructionArithmeticDivideNumbers
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677666]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Variables.SetNumberLocalName
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677667]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Variables.GetDecimalLocalName
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677668]
+      value: GameCreator.Runtime.Core GameCreator.Runtime.Variables.GetDecimalLocalName
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: m_Instructions.m_Instructions.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: m_Instructions.m_Instructions.Array.data[2]
+      value: 2216973397636677665
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: m_Instructions.m_Instructions.Array.data[3]
+      value: 2216973238205677674
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: m_Instructions.m_Instructions.Array.data[4]
+      value: 2216973238205677672
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677665].m_IsEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973238205677649].m_IsExpanded
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
       propertyPath: managedReferences[2216973238205677650].m_GameObject
       value: 
       objectReference: {fileID: 1725937144}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973238205677674].m_IsExpanded
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
       propertyPath: managedReferences[2216973238205677675].m_GameObject
       value: 
       objectReference: {fileID: 1725937144}
     - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677665].m_Breakpoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677665].m_IsExpanded
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
       propertyPath: managedReferences[2216973238205677672].m_WaitToFinish
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677665].m_Set.m_Property
+      value: 2216973397636677666
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677665].m_Value1.m_Property
+      value: 2216973397636677667
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677665].m_Value2.m_Property
+      value: 2216973397636677668
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677666].m_Variable.m_Variable
+      value: 
+      objectReference: {fileID: 1967035093}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677667].m_Variable.m_Variable
+      value: 
+      objectReference: {fileID: 1967035093}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677668].m_Variable.m_Variable
+      value: 
+      objectReference: {fileID: 1967035093}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677666].m_Variable.m_Name.m_ID
+      value: 1949154028
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677667].m_Variable.m_Name.m_ID
+      value: 303203846
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677668].m_Variable.m_Name.m_ID
+      value: -319662446
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677666].m_Variable.m_Name.m_String
+      value: HP_Score
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677667].m_Variable.m_Name.m_String
+      value: HP
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677668].m_Variable.m_Name.m_String
+      value: MaxHP
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677666].m_Variable.m_TypeID.m_String
+      value: number
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677667].m_Variable.m_TypeID.m_String
+      value: number
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957090704668858, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973397636677668].m_Variable.m_TypeID.m_String
+      value: number
       objectReference: {fileID: 0}
     - target: {fileID: 1317957091106117900, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
       propertyPath: m_Name
@@ -12583,6 +12802,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1317957091106117902, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957091106117903, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973107231195157].m_IsExpanded
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957091106117903, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973107231195171].m_IsExpanded
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317957091106117903, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
+      propertyPath: managedReferences[2216973238205677661].m_IsExpanded
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1317957091106117903, guid: 75b48e48aa176644facafc08784ac0d6, type: 3}
